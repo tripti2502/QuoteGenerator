@@ -1,0 +1,70 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-size : 16px;
+}
+
+body{
+    background-color: grey;
+}
+
+.heading{
+    height: 7rem;
+    font-size: 3rem;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-bottom: 2px solid black;
+}
+
+.quotes{
+    background-color: gainsboro;
+    border: 2px solid black;
+    border-radius: 4rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto ;
+    margin-top: 4rem;
+    height: 24rem;
+    width: 50rem;
+    flex-direction: column;
+}
+
+.quotes p{
+    margin: 0px 6rem;
+    font-size: 2rem;
+    text-align: center;
+    color: green;
+}
+
+#author{
+    color: purple;
+}
+
+.button{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+.btn:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+.btn{
+    background-color: black;
+    color: white;
+    height: 3rem;
+    border-radius: 2rem;
+    padding: .1rem;
+}
+
+.btn p{
+    font-size : 1.3rem;
+    margin: .4rem 2rem;
+}
